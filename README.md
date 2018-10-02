@@ -1,6 +1,6 @@
 # VendingMachine
 
-Hi, this is a vending machine system of 3rd Project with using C++, C# and Verlog
+Hi, this is a awarded vending machine system of 3rd Project in 2017 with using C++, C# and Verlog
 
 This vending machine system uses FPGA and MBED as the main control of I/O devices such as card reader, colour sensor, servo, etc.
 
