@@ -1,0 +1,31 @@
+FPGA Serial Commands
+HHx  = 8-bit Hex Value number x
+hx   = 4-bit Hex Value number x
+X	 = 4-bit dont care
+
+Command			Description
+h1h2			Control Servo directly 
+					h1 = Servo Number 	[0-6]
+					h2 = Servo Position [0-F]
+FX				All Servos To Maximum Position
+0X				All Servos To Minumum Position
+AA				Enter Sort Loop
+BB				Enter Run Loop
+
+Sort Commands	Description
+FF				Sort Complete
+1F				Change To Tower 1
+F1				Change To Tower 2
+AA				Home Servo
+
+Run Commands	Description
+99				Run Complete
+FF				Dispense Both Towers
+F0				Dispense Tower 1, Recycle Tower 2
+F8				Dispense Tower 1 only
+08				Recycle Tower 1 only
+0F				Recycle Tower 1 , Dispense Tower 2
+8F				Dispence tower 2 only
+80				Recycle Tower 2 only
+00				Recycle Both Towers;
+BB 				Home Servos
