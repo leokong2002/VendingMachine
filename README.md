@@ -4,6 +4,8 @@ Hi, this is a awarded vending machine system of 3rd Project in 2017 with using C
 
 This vending machine system uses FPGA and MBED as the main control of I/O devices such as card reader, colour sensor, servo, etc.
 
+System can deliver correct number of snacks and identify users' allergies from their cards
+
 source code file(s) may be put in a password protected ZIP file to prevent plagiarism
 
 please send me email if you need to open up any ZIP file, thanks!
